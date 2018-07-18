@@ -9,7 +9,7 @@ library(reshape)
 library(e1071)
 library(klaR)
 library(C50)
-deposit <- read.table("/Users/Poojitha/Desktop/mining assignment/archive.ics.uci.edu_ml_machine-learning-databases_letter-recognition_letter-recognition.pdf", header= F,sep=",")
+deposit <- read.table("/Users/Poojitha/Desktop/mining assignment/bank-full.csv", header= F,sep=",")
 
 summary(deposit)
 class(deposit1)
